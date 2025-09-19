@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSBLPA - CONTACT</title>
+    <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.8/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+
+    <header class="text-light py-3 header-fixed">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo-nsblpa.png" class="logo" />
+                    NSBLPA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html" title="Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ownership.html" title="Ownership">Ownership</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="teams.html" title="Teams">Teams</a></li>
+                        <li class="nav-item"><a class="nav-link" href="apps.html" title="Apps">Apps</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html" title="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section text-center text-light">
+            <!-- Success Popup -->
+            <div class="popup" id="successPopup">
+                <h3>✅ Message Sent!</h3>
+                <p>Thank you for contacting us. We'll get back to you soon.</p>
+            </div>
+            <div class="contact-container" id="contactContainer">
+                <h2>CONTACT US</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name">Full Name</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Email Address</label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder=" " required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="form-group">
+                        <button id="contact-submit" type="submit">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="bg-default text-light text-center py-4">
+        <div class="container">
+            <p class="mb-0">COPYRIGHT & DESIGN BY National Sales Bets League Professional Association - 2025</p>
+        </div>
+    </footer>
+
+    <script src="assets/bootstrap-5.3.8/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/scripts.js"></script>
+</body>
+
+</html>
