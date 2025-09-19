@@ -21,9 +21,10 @@ This project highlights the teams, apps, ownership of **NSBLPA** and ways to con
 
 1. Clone this repository:
    ```bash
-   git clone git@github.com:sjoanbritto/nsblpa-prototype.git
+   git clone git@github.com:joannithish/nsblpa-prototype.git
 
 2. Open index.html in your browser.
 (No server required since it's a static HTML project)
+
 
 
